@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="homepage" content="Matt's Woodcrafts Custom Projects">
+        <title>Matt's Woodcrafts: Custom Projects</title>
+
+         <!--Inline styling for elements-->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Courier New', Courier, monospace;
+                margin: 20px;
+            }
+
+            image:hover{
+                width: 600px;
+            }
+            .img:hover {
+                width: 600px;
+            }
+
+            .header {
+                padding: 60px;
+                text-align: center;
+                background: white;
+                color: black;
+                background-image: url("wood grain background.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            
+            table {
+                text-align: center;
+                border-spacing: 20px;
+                justify-content: center;
+                border-collapse: collapse;
+            }
+            .main {
+                display: flex;
+                padding: auto;
+                gap: 60px;
+            }
+    
+            .navigation {
+                display: flex;
+
+                background-color: wheat;
+            }
+
+
+
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+            }
+
+            @media screen and (max-width: 700px) { .main, .navigation { flex-direction: column; } }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+        <header class="header">
+            <h1>Welcome to Matt's Woodcrafts</h1>
+            Thank you for checking out our custom projects!
+
+        </header>
+        </div>
+        <div class="navigation">
+            <table style="width: 50%; margin: 30px;">
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="lumber.html">Rough Cut Lumber</a></td>
+                    <td><a href="services.html">Sawmilling Services</a></td>
+                    <td><a href="customprojects.html">Custom Rustic Projects</a></td>
+
+                </tr>
+            </table>
+
+        </div>
+
+        <!--Descriptions of projects I have done, or want to do, with images-->
+        <div class="main">
+            <div>
+                <img src="Leupold Bench.jpg" style="width: 200px; height: auto"; alt="leupold bench">
+                <p>This is a bench I made with students.</p> 
+            </div>
+            <div>
+                <img src="https://content.instructables.com/FMZ/M693/HWRZ2EF9/FMZM693HWRZ2EF9.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024" style="width: 200px; height: auto"; alt="slab wood table">
+                <p>This is an example of a table made from live edge slabs of wood.  Picture taken from instructables.</p> 
+            </div>
+            <div>
+                <img src="https://i.etsystatic.com/32037671/r/il/730bb2/5195606217/il_fullxfull.5195606217_lhcg.jpg" style="width: 200px; height: auto"; alt="live edge bookshelf">
+                <p>This is an example of a bookshelf made from live edge wood. Picture taken from etsy.</p> 
+            </div>
+            <div>
+                <img src="garden stakes.jpg" style="width: 200px; height: auto"; alt="garden stakes">
+                <p>These are garden stakes I cut for a local storywalk project.</p> 
+            </div>
+        </div>
+
+        <footer>
+            <p>This website is a project created for a webdesign class. However, I actually do have a sawmill, and I do make things with the lumber<br>
+                If you've somehow stumbled across this and live in the Northeast Kingdom of Vermont, don't hesitate to reach out to <br>
+                fmatthews1066@gmail.com
+            </p>
+        </footer>
+        
+
+    </body>
+</html>

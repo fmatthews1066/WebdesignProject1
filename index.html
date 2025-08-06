@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="homepage" content="Matt's Woodcrafts Homepage">
+        <title>Matt's Woodcrafts: Home</title>
+        <!--Inline styling for elements-->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Courier New', Courier, monospace;
+                margin: 20px;
+            }
+
+            .header {
+                padding: 60px;
+                text-align: center;
+                background: white;
+                color: black;
+                background-image: url("wood grain background.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            
+            table {
+                text-align: center;
+                border-spacing: 20px;
+                justify-content: center;
+                border-collapse: collapse;
+            }
+    
+            .navigation {
+                display: flex;
+
+                background-color: wheat;
+            }
+
+
+            .main {
+                display: flex;
+                
+            }
+
+
+            .sidebar {
+                flex: 30%
+                
+            }
+
+
+            .aboutme { 
+                flex: 70%
+            }
+
+
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: lightslategray;
+            }
+
+            @media screen and (max-width: 700px) { .row, .navbar { flex-direction: column; } }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+        <header class="header">
+            <h1>Welcome to Matt's Woodcrafts</h1>
+            Your one stop shop for rough cut lumber, sawmilling services, and rustic crafts
+
+        </header>
+        </div>
+        <div class="navigation">
+            <table style="width: 50%; margin: 30px;">
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="lumber.html">Rough Cut Lumber</a></td>
+                    <td><a href="services.html">Sawmilling Services</a></td>
+                    <td><a href="customprojects.html">Custom Rustic Projects</a></td>
+
+                </tr>
+            </table>
+
+        <!--About me and the business-->>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <h3>The Man Himself</h3>
+                <img src="https://scontent.fcps4-1.fna.fbcdn.net/v/t39.30808-6/472364590_10111211458653872_6635496271082134616_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9eae26&_nc_ohc=srA7FJuSrpIQ7kNvwHQynys&_nc_oc=AdlZngep8ufurwsLUBkTKzuExCYrwcbwBbcd5C8O3iKh0-YGYJsH5gSWBTsQCTRQTXJxwTGykVeVA7gjLwNsrk_v&_nc_zt=23&_nc_ht=scontent.fcps4-1.fna&_nc_gid=0AB07HsGNWyaSyivWgl5GA&oh=00_AfV2eI2I8yFn3RMdAxSVmMO9eSapyYFZCtI86rQF2lRGtw&oe=68989294" style="width: 300px; height: auto"; alt="The Author">
+                <p>(I'm the one in the hat)</p>
+            </div>
+            <div class="aboutme">
+                <h2>About Me</h2>
+                <p>I'm a guy living in northern Vermont who's taking a webdesign course and happens to have a bunch of potentially lucrative <br>
+                    hobbies.  One of them happens to be working with wood, and to facilitate this, I bought a sawmill in 2022. Since then, <br>
+                    I've been making projects with the lumber and collecting the other tools I need to keep the sawmill functioning in peak <br>
+                    condition, such as a blade sharpener.
+                </p>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <p>My machine is the LX25, which can be seen in the video below.</p>
+
+        <!--code taken from the youtube embed tool-->>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EuSfSsWRwEg?si=CvQrvImf-z7Zi5pA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <footer>
+            <p>This website is a project created for a webdesign class. However, I actually do have a sawmill, and I do make things with the lumber<br>
+                If you've somehow stumbled across this and live in the Northeast Kingdom of Vermont, don't hesitate to reach out to <br>
+                fmatthews1066@gmail.com
+            </p>
+        </footer>
+    </body>
+</html>
